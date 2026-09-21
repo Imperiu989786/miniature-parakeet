@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+body {
+  font-family: "Yeseva One", serif;
+  font-weight: 400;
+  font-style: normal;
+
+  box-sizing: border-box;
+  background: gray;
+}
+
+.main {
+  display: inline-flex;
+  background: #FFFFFF;
+  padding: 16px;
+  border-radius: 16px;
+  gap: 4px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+
+  gap: 12px;
+}
+
+
+.card__one {
+
+  border-radius: 12px;
+  background: #523EE8;
+  color: #FFFFFF;
+  padding: 12px 24px;
+}
+
+.card__two {
+
+  padding: 12px 24px;
+  border-radius: 12px;
+  border: 1px solid #E5E7EB;
+
+  background: #FFFFFF;
+}
+
+.card__three {
+  padding: 12px 24px;
+  border-radius: 12px;
+  border: 1px solid #E5E7EB;
+
+  background: #FFFFFF;
+}
+
+.card__four {
+  padding: 12px 24px;
+  border-radius: 12px;
+  border: 1px solid #E5E7EB;
+
+  background: #FFFFFF;
+}
+
