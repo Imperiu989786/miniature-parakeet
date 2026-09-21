@@ -1,64 +1,50 @@
 * {
-  padding: 0;
-  margin: 0;
-  font-size: 16px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/InterRegular.woff2");
+  font-display: swap;
+  font-weight: 400;
 }
 
 body {
-  font-family: "Yeseva One", serif;
-  font-weight: 400;
-  font-style: normal;
-
-  box-sizing: border-box;
-  background: gray;
+  margin: 0;
+  font-family: "Inter", sans-serif;
 }
 
-.main {
-  display: inline-flex;
-  background: #FFFFFF;
-  padding: 16px;
-  border-radius: 16px;
-  gap: 4px;
-}
-
-.card {
+.panel {
   display: flex;
-  justify-content: space-between;
-
+  margin: 0;
+  padding: 16px;
+  list-style: none;
   gap: 12px;
 }
 
-
-.card__one {
-
+.panel__btn {
+  display: inline-flex;
+  border: 1px solid #e5e7eb;
   border-radius: 12px;
-  background: #523EE8;
-  color: #FFFFFF;
   padding: 12px 24px;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  color: #111827;
+  background: #fff;
+  cursor: pointer;
+  transition: border-color 0.3s, color 0.3s, background 0.3s;
 }
 
-.card__two {
-
-  padding: 12px 24px;
-  border-radius: 12px;
-  border: 1px solid #E5E7EB;
-
-  background: #FFFFFF;
+.panel__btn:hover {
+  border-color: #523ee8;
+  color: #fff;
+  background: #523ee8;
 }
 
-.card__three {
-  padding: 12px 24px;
-  border-radius: 12px;
-  border: 1px solid #E5E7EB;
-
-  background: #FFFFFF;
+.panel__btn--active {
+  border-color: #523ee8;
+  color: #fff;
+  background: #523ee8;
+  pointer-events: none;
 }
-
-.card__four {
-  padding: 12px 24px;
-  border-radius: 12px;
-  border: 1px solid #E5E7EB;
-
-  background: #FFFFFF;
-}
-
